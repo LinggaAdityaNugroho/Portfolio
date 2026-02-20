@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 
 export default function CardFeat({ title, description, icon, className }) {
   return (
-    <CardWrapper className={twMerge("flex flex-col    gap-2  ", className)}>
+    <CardWrapper className={twMerge("flex flex-col gap-2  ", className)}>
       <CardIcon IconComponent={icon} />
       <CardLabel title={title} description={description} />
     </CardWrapper>

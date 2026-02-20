@@ -3,9 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { Router, BrowserRouter, Routes } from "react-router-dom";
+import { ThemeProvider } from "next-themes";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>
+    <ThemeProvider attribute="class" defaultTheme="dark">
+      <App />
+    </ThemeProvider>
+  </StrictMode>,
 );
