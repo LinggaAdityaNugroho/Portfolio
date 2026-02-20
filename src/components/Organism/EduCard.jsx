@@ -1,5 +1,5 @@
-import { CareerImage } from "../atoms/CareerImage";
-import { CareerLabel } from "../atoms/CareerLabel";
+import { CareerImage } from "../Atoms/CareerImage";
+import { CareerLabel } from "../Atoms/CareerLabel";
 import { CareerInfo } from "../Moleculs/CareerInfo";
 import SpotlightCard from "../SpotlightCard";
 
